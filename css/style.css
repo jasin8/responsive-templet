@@ -1,0 +1,291 @@
+ body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+    font-family: 'Hind', sans-serif;
+}
+section{
+	width: 1200px;
+	margin: 0 auto;
+}
+header{
+	background-image: url(../images/he.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	padding-top: 20px;
+}
+img{
+	width: 100%;
+}
+
+.main-header{
+	overflow: hidden;
+	margin: 0 120px;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img{
+
+}
+
+nav{
+	width: 80%;
+	float: left;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 23px;
+    display: block;
+    color: white;
+}
+nav ul li a:hover{}
+
+.header-content{
+    margin: 43px 120px 0 120px;
+}
+.header-content h2{
+	color: white;
+	font-size: 40px;
+	margin: 0 0 20px 0;
+}
+.header-content p{
+    color: white;
+    margin: 0 650px 45px 0;
+}
+.header-content a{
+	text-decoration: none;
+	color: white;
+	background: #272822;
+	border: 15px solid #272822;
+	border-radius: 48px;
+	font-size: 15px;
+}
+
+.header-content a span{
+	color: white;
+	border: 9px solid #272822;
+	font-size: 15px;
+}
+
+.body-content{}
+.body-content h2{
+	color: gray;
+    text-align: center;
+}
+.body-content p{
+	font-size: 17px;
+    margin: 0px 230px;
+    text-align: center;
+}
+
+
+.main-box{
+    margin: 0px 100px;
+    height: 350px;
+}
+.box-content{
+	width: 33.33%;
+	margin: 35px 0 0 0px;
+	float: left;
+}
+
+.box-content img{
+	border-radius: 100%;
+	width: 160px;
+	margin: 0 83px;
+}
+.box-content h4{
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin: 15px;
+}
+.box-content p{
+    text-align: center;
+    margin: 0px 40px;
+}
+
+.banner{
+	min-height: 550px;
+	background-image: url(../images/banner.jpg);
+	display: block;
+        max-width:100%;
+      background size:cover;
+}
+.m-content{
+    margin: -445px 120px 159px 120px;
+   text-align:center;
+}
+.m-content h2{
+    line-height: 42px;
+    color: red;
+    font-size: 36px;
+text-align:center;
+}
+.m-content p{
+    width:40%:
+    text-align: center;
+    margin: 0px 0 55px 0;
+       
+}
+.m-content a{
+    text-decoration: none;
+    border: 10px solid red;
+    border-radius: 25px;
+    color: white;
+    background-color: red;
+   text-align:center;
+}
+
+.last-content{
+    margin: 20px 210px 27px 210px;
+}
+.last-content h5{
+	color: #b19d9d;
+    font-size: 15px;
+    text-align: center;
+}
+.last-content h6{
+	color: brown;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.dot-part{
+	 margin: 10px 550px 40px 550px;
+}
+.dot1{
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	border: 3px solid gray;
+	border-radius: 10px;
+	display: inline-block;
+}
+.dot2{
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	border: 3px solid gray;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+footer{
+    background: #565353;
+    width: 1200px;
+    min-height: 360px;
+}
+.main-footer{
+	margin: 0 30px 0 150px;
+	    padding-top: 34px;
+}
+.footer-content{}
+.footer-content img{
+	width: 20%;
+}
+.footer-content h2{}
+
+.footer-box1{
+	width: 33.33%;
+	float: left;
+}
+.footer-box1 h5{
+	font-size: 15px;
+	color: white;
+	margin-top: 30px;
+}
+.footer-box1 p{
+	color: white;
+	margin: 15px 95px 20px 60px;
+	font-size: 12px;
+}
+
+.footer-box1 span{
+	font-size: 25px;
+	background-color: white;
+	width: 45px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+}
+
+
+.footer-box2{
+	width: 33.33%;
+	float: left;
+}
+.footer-box2 h5{
+	font-size: 15px;
+	color: white;
+	margin-top: 30px;
+}
+.footer-box2 p{
+	color: white;
+	margin: 15px 95px 20px 60px;
+	font-size: 12px;
+}
+
+.footer-box2 .p2{
+	color: white;
+	margin: 15px 95px 20px 3px;
+}
+
+.footer-box2 .p3{
+	color: white;
+	margin: 15px 95px 20px 3px;
+	font-size: 12px;
+}
+
+.footer-box2 .p3 a{
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	border-radius: 50px;
+	
+}
+
+.footer-box2 span{
+	font-size: 25px;
+	color: #9292fb;
+	background-color: white;
+	width: 45px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+}
+
+
+.footer-box3{
+	width: 33.33%;
+	float: left;
+}
+.footer-box3 h5{
+	font-size: 15px;
+	color: white;
+	margin-top: 30px;
+}
+.footer-box3 p{
+	color: white;
+	margin: 15px 95px 20px 3px;
+	font-size: 12px;
+}
+
+
